@@ -1,0 +1,20 @@
+Feature: Tags Concept
+
+  Scenario: verify login
+    Given This is valid login test
+
+  Scenario: Verify logout
+    Given This is logout test
+
+  Scenario: Verify search
+    Given This is search test
+
+    Scenario:Verify advanced search
+    Given This is advanced search
+    
+    
+    Scenario:Verify the prepaid recharge
+    Given This is prepaid recharge
+    
+    Scenario:Verify postpaid recharge
+    Given This is Postpaid recharge test

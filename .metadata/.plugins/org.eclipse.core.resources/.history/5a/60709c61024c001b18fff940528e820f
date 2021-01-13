@@ -1,0 +1,12 @@
+package pageObjects;
+
+public class SearchCustomerPage {
+
+	public WebDriver ldriver;
+	public SearchCustomerPage(WebDriver rdriver) {
+		
+		ldriver = rdriver;
+		PageFactory.initElements(ldriver, this);
+		waithelper=new WaitHelper(ldriver);
+	}
+}

@@ -1,0 +1,16 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+public class SearchCustomerPage {
+
+	public WebDriver driver;
+//	WaitHelper waithelper;
+	public WaitHelper(WebDriver rdriver) {
+		
+		ldriver = rdriver;
+		PageFactory.initElements(ldriver, this);
+		waithelper=new WaitHelper(ldriver);
+	}
+}

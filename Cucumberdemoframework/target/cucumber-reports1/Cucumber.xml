@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.491">
+<testcase classname="Login" name="Successful Login with Valid Credentials" time="0.046">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User Launch Chrome browser............................................undefined
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............skipped
+And User enters Email as "admin@yourstore.com" and Password as "admin"......skipped
+And Click on Login..........................................................skipped
+Then Page Title should be "Dashboard / nopCommerce administration"..........skipped
+When User click on Log out link.............................................skipped
+Then Page Title should be "Your store. Login"...............................skipped
+And close browser...........................................................skipped
+]]></failure>
+</testcase>
+<testcase classname="Login" name="Login Data Driven" time="0.006">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User Launch Chrome browser............................................undefined
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............skipped
+And User enters Email as "admin@yourstore.com" and Password as "admin"......skipped
+And Click on Login..........................................................skipped
+Then Page Title should be "Dashboard / nopCommerce administration"..........skipped
+When User click on Log out link.............................................skipped
+Then Page Title should be "Your store. Login"...............................skipped
+And close browser...........................................................skipped
+]]></failure>
+</testcase>
+<testcase classname="Login" name="Login Data Driven 2" time="0.006">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given User Launch Chrome browser............................................undefined
+When User opens URL "http://admin-demo.nopcommerce.com/login"...............skipped
+And User enters Email as "admin1@yourstore.com" and Password as "admin123"..skipped
+And Click on Login..........................................................skipped
+Then Page Title should be "Dashboard / nopCommerce administration"..........skipped
+When User click on Log out link.............................................skipped
+Then Page Title should be "Your store. Login"...............................skipped
+And close browser...........................................................skipped
+]]></failure>
+</testcase>
+</testsuite>

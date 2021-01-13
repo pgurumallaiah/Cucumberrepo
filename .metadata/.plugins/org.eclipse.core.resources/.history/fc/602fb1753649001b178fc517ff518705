@@ -1,0 +1,13 @@
+Feature: OrangeHRM Login
+
+  Scenario: Logo presence on orangeHRM homepage
+    Given I launch the chrome broweser
+    When I open the OrangeHRM Homepage
+    Then I verify that logo present on the page
+    And I close the browser
+
+    Scenario: Logo presence on orangeHRM homepage
+    Given I launch the chrome broweser
+    When I open the OrangeHRM Homepage
+    Then I verify that logo present on the page
+    And I close the browser

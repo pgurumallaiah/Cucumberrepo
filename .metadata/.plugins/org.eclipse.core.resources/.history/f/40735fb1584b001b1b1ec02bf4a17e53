@@ -1,0 +1,12 @@
+package pageObjects;
+
+public class LoginPage {
+
+	
+	LoginPage(driver,this)
+	{
+		this.driver=driver;
+		
+		
+	}
+}

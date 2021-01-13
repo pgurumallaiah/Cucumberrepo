@@ -1,0 +1,43 @@
+package StepDefinitions;
+
+import io.cucumber.java.en.*;
+
+public class TaggingSteps {
+
+
+@Given("This is valid login test")
+public void this_is_valid_login_test() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("This is logout test")
+public void this_is_logout_test() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("This is search test")
+public void this_is_search_test() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("This is advanced search")
+public void this_is_advanced_search() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("This is prepaid recharge")
+public void this_is_prepaid_recharge() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+@Given("This is Postpaid recharge test")
+public void this_is_postpaid_recharge_test() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+}

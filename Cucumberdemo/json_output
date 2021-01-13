@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Below are the background steps",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5167000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I launch the chrome broweser",
+            "match": {
+              "location": "StepDefinitions.OrangeHRMsteps.i_launch_the_chrome_broweser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8633000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open the OrangeHRM Homepage",
+            "match": {
+              "location": "StepDefinitions.OrangeHRMsteps.i_open_the_orange_hrm_homepage()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-29T09:55:12.860Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.HooksSteps.setup()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "login to OrangeHRM with Multiple Parameter",
+        "description": "",
+        "id": "orangehrm-login;login-to-orangehrm-with-multiple-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.HooksSteps.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3285000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter username \"admin\" and password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"admin123\"",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinitions.OrangeHRMsteps.enter_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6101000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on the login button",
+            "match": {
+              "location": "StepDefinitions.OrangeHRMsteps.click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User must succesfully login to the Dashboard page",
+            "match": {
+              "location": "StepDefinitions.OrangeHRMsteps.user_must_succesfully_login_to_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 557000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I close the browser",
+            "match": {
+              "location": "StepDefinitions.OrangeHRMsteps.i_close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Login",
+    "description": "",
+    "id": "orangehrm-login",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/OrangeHRM_background.feature",
+    "tags": []
+  }
+]

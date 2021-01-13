@@ -1,0 +1,72 @@
+package StepDefinitions;
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.*;
+
+public class HooksSteps {
+
+	@Before
+	public void setup()
+	{
+		System.out.println("launch browser");
+		System.out.println("Logging in to application ");
+	
+	}
+	
+	@After
+	public void teardown()
+	{
+		System.out.println("closed browser.......");
+		
+	
+	}
+	
+	@Given("user is on add customer page")
+	public void user_is_on_add_customer_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user fills the customer details")
+	public void user_fills_the_customer_details() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("customer is added")
+	public void customer_is_added() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Given("user is on edit customer page")
+	public void user_is_on_edit_customer_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user edits the contact details")
+	public void user_edits_the_contact_details() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("contact details updated")
+	public void contact_details_updated() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("user deletes the customer")
+	public void user_deletes_the_customer() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("customer deleted")
+	public void customer_deleted() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+}
